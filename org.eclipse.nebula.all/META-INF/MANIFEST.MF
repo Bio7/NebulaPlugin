@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: All
+Bundle-SymbolicName: org.eclipse.nebula.widgets
+Bundle-Version: 3.1.1.qualifier
+Automatic-Module-Name: org.eclipse.nebula.widgets
+Bundle-ClassPath: bin/
+Bundle-RequiredExecutionEnvironment: JavaSE-21
+Require-Bundle: org.eclipse.swt,
+ org.eclipse.draw2d,
+ org.eclipse.jface,
+ org.eclipse.core.runtime;bundle-version="3.31.0",
+ org.eclipse.jface.databinding;bundle-version="1.15.200",
+ org.eclipse.core.databinding.observable;bundle-version="1.13.200"
